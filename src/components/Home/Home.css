@@ -1,0 +1,101 @@
+.home-page-container {
+  display: grid;
+  grid-template-columns: minmax(2rem, 1fr) repeat(2, minmax(0, 40rem)) minmax(
+      2rem,
+      1fr
+    );
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+  align-items: end;
+  justify-items: center;
+  padding: 40px 60px;
+  margin-top: 80px;
+  overflow-x: hidden;
+  padding-bottom: max(21rem, 10vh);
+}
+.space-text-container {
+  color: #fff;
+  grid-column: 2;
+}
+
+.space-text-header {
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  font-weight: lighter;
+}
+
+.space-text-title {
+  font-size: clamp(5rem, 8vw + 1rem, 9.375rem);
+  text-transform: uppercase;
+  font-weight: lighter;
+  padding-bottom: 10px;
+}
+
+.space-text-description {
+  font-weight: lighter;
+  font-size: 17px;
+  text-transform: capitalize;
+  max-width: 68%;
+  line-height: 25px;
+}
+
+.button-conatiner {
+  cursor: pointer;
+  position: relative;
+  display: inline-grid;
+  z-index: 1;
+  place-items: center;
+  font-size: 2rem;
+  padding: 0 2em;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  text-decoration: none;
+  background-color: #fff;
+  grid-column: 3;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.explore-link {
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 100%;
+}
+
+.button-container:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+
+/* //////////////////////////////// */
+@media screen and (max-width: 671.9px) {
+  .home-page-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    align-items: end;
+    justify-items: center;
+    padding: 0;
+    margin-top: 80px;
+  }
+  .button-conatiner {
+    grid-column: 1;
+  }
+  .space-text-container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    grid-column: 1;
+  }
+
+  .space-text-description {
+    font-size: 17px;
+    line-height: 25px;
+    max-width: 100%;
+  }
+  :root {
+    background-image: url(/src/assets/image/home/background-home-tablet.jpg);
+  }
+}

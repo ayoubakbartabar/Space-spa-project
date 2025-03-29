@@ -1,0 +1,111 @@
+.technology-container{
+    display: grid;
+    grid-template-areas:
+    ". title title image ."
+    ". tabs content image ."
+    ". tabs content image .";
+    grid-template-columns: auto minmax(0, .3fr) minmax(0, 1fr) minmax(0, 1fr) auto;
+    overflow-x: hidden;
+    column-gap: 2rem;
+    justify-items: end;
+    padding-bottom: 5rem;
+}
+.technology-header{
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 100;
+    padding: 30px 0px 40px 0px;
+    grid-area: title;
+}
+.technology-btn-container{
+    grid-area: tabs;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.technology-btn{
+    cursor: pointer;
+    width: 4rem;
+    height: 4rem;
+    border: 0;
+    border-radius: 100%;
+}
+.technology-info-container{
+    color: #fff;
+    width: 100%;
+    grid-area: content;
+}
+.technology-info-header{
+    width: 100%;
+    font-size:  1.125rem;
+    text-transform: uppercase;
+    color: #d2d8f9;
+    opacity: 0.5;
+    margin-bottom: 30px;
+}
+
+.technology-name{
+    width: 100%;
+    font-size:  3.5rem;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+.technology-info{
+    padding-top: 20px;
+    width: 100%;
+    font-size:  1.125rem;
+    color: #d2d8f9;
+    line-height: 30px;
+    opacity: 0.5;
+}
+.technology-image-container{
+    grid-area: image;
+    max-width: 100vw;
+}
+.technology{
+    left: 0;
+    margin-left: 0;
+    margin-right: -7vw;
+    max-width: 35vw;
+    min-width: 20vw;
+    position: relative;
+    right: 0;
+    width: 35vw;
+    transform: scale(1);
+}
+/* //////////////////////////////// */
+@media screen and (max-width: 750px) {
+    .technology-header{
+        width: 100%;
+        text-align: start;
+    }
+    .technology-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "title"
+        "image"
+        "tabs"
+        "content";
+        justify-items: center;
+        text-align: center;
+    }
+    .technology-btn-container{
+        grid-area: tabs;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+    }
+    
+}

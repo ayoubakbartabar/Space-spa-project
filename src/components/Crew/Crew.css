@@ -1,0 +1,87 @@
+.crew-container{
+    display: grid;
+    text-align: left;
+    grid-template-areas:
+    ". title title ."
+    ". content image ."
+    ". tabs image .";
+    grid-template-columns: minmax(2rem, 1fr) repeat(2, minmax(0, 40rem)) minmax(2rem, 1fr);
+    overflow-x: hidden;
+    column-gap: 2rem;
+}
+.crew-header{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 100;
+    padding: 30px 0px 40px 0px;
+    grid-area: title;
+}
+.crew-info-content{
+    width: 100%;
+    grid-area: content;
+}
+
+.crew-role{
+    color: #fff;
+    font-weight: 100;
+    font-size: 2rem;
+    opacity: .5;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.crew-name{
+    color: #fff;
+    font-weight: 100;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.crew-bio{
+    color: #fff;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 30px;
+}
+.crew-btn-container{
+    margin-top: 15rem;
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    grid-area: tabs;
+}
+.crew-btn{
+    cursor: pointer;
+    border-radius: 100%;
+    padding: 10px;
+}
+.crew-image-container{
+    grid-area: image;
+    height: auto;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+@media screen and (max-width: 671.9px) {
+    .crew-container{
+        display: grid;
+        text-align: center;
+        grid-template-areas:
+        ". title ."
+        ". content ."
+        ". tabs ."
+        ". image .";
+        grid-template-columns:1fr;
+        justify-items: center;
+    }
+    .crew-header{
+        width: 100%;
+        padding-left: 0;
+        text-align: start !important;
+    }
+}
