@@ -1,11 +1,11 @@
 # Hi buddy👋
 
-# 🚀 Space Tourism Website
-
 <p align="center">
   <img src="./thumbnail.webp" alt="Space Tourism Preview" width="100%">
 </p>
 
+
+# 🚀 Space Tourism Website
 
 Welcome to the Space Tourism Experience! 👨‍🚀✨
 
