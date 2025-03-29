@@ -1,7 +1,11 @@
 # Hi buddy👋
 
-![Design preview for the Space tourism website coding challenge](./thumbnail.webp)
 # 🚀 Space Tourism Website
+
+<p align="center">
+  <img src="./thumbnail.webp" alt="Space Tourism Preview" width="100%">
+</p>
+
 
 Welcome to the Space Tourism Experience! 👨‍🚀✨
 
