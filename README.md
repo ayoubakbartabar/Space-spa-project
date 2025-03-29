@@ -9,7 +9,7 @@ Embark on an interstellar adventure with our Space Tourism Website, designed to 
 
 🌟 **Live Demo**
 
-🔗 [Check it out here](http://localhost:5174/)
+🔗 [Check it out here](https://space-spa-project.netlify.app/)
 
 ## 🔧 Built With
 
