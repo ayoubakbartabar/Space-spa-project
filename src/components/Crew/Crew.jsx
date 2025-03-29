@@ -1,5 +1,5 @@
 import { React, useState, useEffect } from "react";
-import "./crew.css";
+import "./Crew.css";
 
 export default function Crew() {
   const [crew, setCrew] = useState([]);
