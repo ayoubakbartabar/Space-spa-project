@@ -17,7 +17,6 @@ Embark on an interstellar adventure with our Space Tourism Website, designed to 
 - **CSS** – Beautiful, responsive styling with animations
 - **JavaScript** – Dynamic interactions
 - **React** – Component-based UI development
-- **Vite** – Lightning-fast development and bundling
 
 ## 🛰️ Single Page Application (SPA)
 
