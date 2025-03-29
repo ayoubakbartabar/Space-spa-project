@@ -96,6 +96,6 @@
     max-width: 100%;
   }
   :root {
-    background-image: url(/src/assets/image/home/background-home-tablet.jpg);
+    background-image: url(../../../public/assets/image/home/background-home-tablet.jpg);
   }
 }

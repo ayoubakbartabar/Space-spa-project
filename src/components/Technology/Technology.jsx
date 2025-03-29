@@ -8,7 +8,7 @@ export default function Technology() {
     const [technology , setTechnology] = useState([])
     const [technologyName , setTechnologyName] = useState("Launch vehicle")
     const [technologyinfo , setTechnologyInfo] = useState("A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!")
-    const [technologyImage , setTechnologyImage] = useState("./src/assets/image/technology/image-launch-vehicle-portrait.jpg")
+    const [technologyImage , setTechnologyImage] = useState("/assets/image/technology/image-launch-vehicle-portrait.jpg")
 
 
     useEffect(()=>{

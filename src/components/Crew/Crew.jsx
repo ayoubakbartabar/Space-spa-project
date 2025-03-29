@@ -4,7 +4,7 @@ import "./Crew.css";
 export default function Crew() {
   const [crew, setCrew] = useState([]);
   const [crewImg, setCrewImg] = useState(
-    "../src/assets/image/crew/image-douglas-hurley.png"
+    "/assets/image/crew/image-douglas-hurley.png"
   );
   const [crewRole, setCrewRole] = useState("Commander");
   const [crewName, setCrewName] = useState("Douglas Hurley");
