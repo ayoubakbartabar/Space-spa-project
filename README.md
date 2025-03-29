@@ -1,6 +1,6 @@
 # Hi buddy👋
 
-![Design preview for the Space tourism website coding challenge](./preview.jpg)
+![Design preview for the Space tourism website coding challenge](./thumbnail.webp)
 # 🚀 Space Tourism Website
 
 Welcome to the Space Tourism Experience! 👨‍🚀✨
